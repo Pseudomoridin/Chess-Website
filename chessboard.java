@@ -32,12 +32,13 @@ class chessboard()
   
   public chessboard()
   {
-    private Object[][] this.chessboard = new Object[8][8];
-    this.chessboard.populate();
+    public Object[][] chessboard = new Object[8][8];
+    chessboard.populate();
   }
 
-  public move()
+  public boolean move(int[] position1, int[] position2)
   {
-    piece.move
+    Object piece = chessboard[position1[0]][position1[1]];
+    piece.move(position1, position2);
   }
 }

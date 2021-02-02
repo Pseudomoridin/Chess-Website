@@ -14,4 +14,10 @@ class bishop()
   public string getColour(){return this.colour;}
 
   public int[] getPosition(){return this.position;}
+
+  private boolean move_logic()
+  {}
+
+  private boolean move()
+  {}
 }
