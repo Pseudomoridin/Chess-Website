@@ -39,6 +39,13 @@ class chessboard()
   public boolean move(int[] position1, int[] position2)
   {
     Object piece = chessboard[position1[0]][position1[1]];
-    piece.move(position1, position2);
+    if (piece.move(position2) == true)
+    {
+      chessboard[position1[0]][position1[1]] = null;
+    }
+    else
+    {
+      System.out.println("invalid move");
+    }
   }
 }
