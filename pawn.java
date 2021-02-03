@@ -19,6 +19,24 @@ class pawn()
   private boolean move_logic()
   {}
 
-  private boolean move()
-  {}
+  private boolean move(int[] move)
+  {
+    if (this.move_logic(move) == true)
+    {
+      try 
+      {
+        chessboard[move[0]][move[1]] = this;
+        this.setPosition(move);
+        return true;
+      }
+      catch (Exception e)
+      {
+        return false;
+      }
+    }
+    else
+    {
+      return false;
+    }
+  }
 }
