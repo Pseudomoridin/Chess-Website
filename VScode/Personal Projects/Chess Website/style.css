@@ -1,0 +1,105 @@
+.empty {
+  background : #ffffff;
+  padding : 25px 25px;
+}
+
+.black_pawn {
+  background : url(chess_pieces_png/pawn_black.png);
+  background-size : 50px 50px;
+  cursor : pointer;
+  padding : 25px 25px;
+}
+
+.white_pawn {
+  background: url(chess_pieces_png/pawn_white.png);
+  background-size : 50px 50px;
+  text-align: center;
+  cursor: pointer;
+  padding : 25px 25px;
+}
+
+.black_rook {
+  background : url(chess_pieces_png/rook_black.png);
+  background-size : 50px 50px;
+  cursor : pointer;
+  padding : 25px 25px;
+}
+
+.white_rook {
+  background: url(chess_pieces_png/rook_white.png);
+  background-size : 50px 50px;
+  text-align: center;
+  cursor: pointer;
+  padding : 25px 25px;
+}
+
+.black_knight {
+  background : url(chess_pieces_png/knight_black.png);
+  background-size : 50px 50px;
+  cursor : pointer;
+  padding : 25px 25px;
+}
+
+.white_knight {
+  background: url(chess_pieces_png/knight_white.png);
+  background-size : 50px 50px;
+  text-align: center;
+  cursor: pointer;
+  padding : 25px 25px;
+}
+
+.black_bishop {
+  background : url(chess_pieces_png/bishop_black.png);
+  background-size : 50px 50px;
+  cursor : pointer;
+  padding : 25px 25px;
+}
+
+.white_bishop {
+  background: url(chess_pieces_png/bishop_white.png);
+  background-size : 50px 50px;
+  text-align: center;
+  cursor: pointer;
+  padding : 25px 25px;
+}
+
+.black_queen {
+  background : url(chess_pieces_png/queen_black.png);
+  background-size : 50px 50px;
+  cursor : pointer;
+  padding : 25px 25px;
+}
+
+.white_queen {
+  background: url(chess_pieces_png/queen_white.png);
+  background-size : 50px 50px;
+  text-align: center;
+  cursor: pointer;
+  padding : 25px 25px;
+}
+
+.black_king {
+  background : url(chess_pieces_png/king_black.png);
+  background-size : 50px 50px;
+  cursor : pointer;
+  padding : 25px 25px;
+}
+
+.white_king {
+  background: url(chess_pieces_png/king_white.png);
+  background-size : 50px 50px;
+  text-align: center;
+  cursor: pointer;
+  padding : 25px 25px;
+}
+
+.horizontal-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.center {
+  margin: auto;
+  text-align : center;
+}

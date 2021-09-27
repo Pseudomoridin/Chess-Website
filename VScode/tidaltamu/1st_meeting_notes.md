@@ -1,0 +1,32 @@
+# **T I D A L &nbsp; T A M U**
+<!-- No clue what this meeting is over, about, or relating to anything but I'll find out later hopefully -->
+## Machine Learning, Data Science and Artificial Intelligence
+- All very much overlapped
+- Tidaltamu is about the implementation of practical AI application
+- Hands on learning
+- Networking with professors and business people
+- Competitive research projects
+- **DUES $10** <!-- September 30th -->
+- 2 day conferences, day 1 intro day 2 info
+    - 4 per semester
+    - do not meet after thanksgiving break
+- tidal jr.
+    - trying to get hs students to do machine learning and ai
+    - Looking for people to create material and reach out to schools
+- PROJECTS
+    - Brain-Computer Interface
+    - Autonomous Parking
+    - Pedestrian Detection
+    - Applications due September 15th
+    - Interviews start September 22nd
+    - Project Placement start September 26th
+- Conference days
+    - Day 1 is Wednesdays 6:00 - 7:30 PM
+        - AI in the news
+        - Icebreakers
+        - Introduce topic for the week
+        - Introduce mini-project
+    - Day 2 is Thursdays 6:00 - 7:30 PM
+    - Conference 2: Supervised Learning - Sept 29-30
+    - Conference 3: Unsupervised Learning
+    - Conference 4: Neural Networks
