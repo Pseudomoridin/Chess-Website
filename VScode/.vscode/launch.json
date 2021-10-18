@@ -1,0 +1,10 @@
+{
+    "configurations": [
+        {
+            "type": "pwa-chrome",
+            "name": "http://file:///C:/Users/elayn/Desktop/VScode/Personal%20Projects/Chess%20Website/chess_website.html",
+            "request": "launch",
+            "url": "http://file:///C:/Users/elayn/Desktop/VScode/Personal%20Projects/Chess%20Website/chess_website.html"
+        }
+    ]
+}

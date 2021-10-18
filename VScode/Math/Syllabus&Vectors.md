@@ -95,9 +95,9 @@ HW due Thursdays
     - work is the dot product of force and distance
 - Projections:
     - The portion of b heading in the same direction as a
-    - x = |b|cos(theta)
-    - x = a dot b / |a| (scalar projection)
-    - comp(sub a)b = a dot b / a
+###    x = |b|cos(theta)
+    x = a dot b / |a| (scalar projection)
+###    comp(sub a)b = a dot b / a
     x = (a dot b / |a|) * (a / |a|) (vector projection)
 - Shortest distance from a point to a line
     - **SHORTEST DISTANCE IS ALWAYS PERPENDICULAR**

@@ -11,6 +11,7 @@
 # I refuse to put imports anywhere but at the top
 from math import sqrt
 
+########### Part A ##########
 # I added the comments cause I thought they were funny
 # I did type it although I copied the comments
 a = 1/7 # I SAID TYPE, NOT COPY/PASTE!
@@ -19,12 +20,14 @@ b = a * 7 # ESPECIALLY NOT FROM THE INTERNET
 print("b = a * 7 =", b)
 """ Wow it's 1 who could've guessed this would happen """
 
+########### Part B ##########
 c = 2 * a # DID YOU COPY/PASTE AGAIN?
 d = 5 * a # TYPE THE CODE!
 f = c + d # DON’T BE LAZY!
 print("f = 2 * a + 5 * a =", f)
 """ It's not 1 cause floats are just rough(for a computer) approximations of the actual number """
 
+########### Part C ##########
 x = sqrt(1 / 3) # STILL COPY/PASTING?
 print("x =", x) # THIS IS GOOD PRACTICE FOR TYPING!
 y = x * x * 3 # YOU’LL REMEMBER IT BETTER IF YOU TYPE

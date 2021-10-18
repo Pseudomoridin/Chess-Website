@@ -11,30 +11,29 @@
 import math as m
 
 def quadratic(a,b,c):
-    ima = b**2 - (4 * a * c)
+    ima = (b**2) - (4 * a * c)
     if ima < 0:
         imaginary = True
+        initroots = []
+        initroots.append(str((-b / (2 * a))) + " + " + str(m.sqrt(abs(ima)) / (2 * a)) + "i")
+        initroots.append(str((-b / (2 * a))) + " - " + str(m.sqrt(abs(ima)) / (2 * a)) + "i")
     else:
         imaginary = False
+        initroots = []
+        initroots.append((-b + m.sqrt(ima)) / (2 * a))
+        initroots.append((-b - m.sqrt(ima)) / (2 * a))
     ima = abs(ima)
-    initroots = []
-    initroots.append((-b + m.sqrt(ima)) / (2 * a))
-    initroots.append((-b - m.sqrt(ima)) / (2 * a))
     trueRoots = []
     
     if initroots[0] == initroots[1]:
         initroots = [initroots[0]]
 
-    if ima:
-        for item in initroots:
-            trueRoots.append(str(item) + "i")
-    else:
-        for item in initroots:
-            trueRoots.append(str(item))
+    for item in initroots:
+        trueRoots.append(str(item))
     return trueRoots
 
 def linear(b,c):
-    return
+    return [float(float(-c) / b)]
 
 a = float(input("Please enter the coefficient A: "))
 b = float(input("Please enter the coefficient B: "))

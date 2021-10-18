@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Chess Site (in development)</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body style="background-color:#6495ED;">
+    <h1 class="center">Chess vs. a machine-learning AI</h1>
+    <div class="chessboard">
+      <div class="horizontal-center">
+        <button id="a8"class="black_rook" onclick="do_on_click('a8')"></button>
+        <button id="b8"class="black_knight"onclick="do_on_click('b8')"></button>
+        <button id="c8"class="black_bishop"onclick="do_on_click('c8')"></button>
+        <button id="d8"class="black_queen"onclick="do_on_click('d8')"></button>
+        <button id="e8"class="black_king"onclick="do_on_click('e8')"></button>
+        <button id="f8"class="black_bishop"onclick="do_on_click('f8')"></button>
+        <button id="g8"class="black_knight"onclick="do_on_click('g8')"></button>
+        <button id="h8"class="black_rook"onclick="do_on_click('h8')"></button>
+      </div>
+
+      <div class="horizontal-center">
+        <button id="a7"class="black_pawn"onclick="do_on_click('a7')"></button>
+        <button id="b7"class="black_pawn"onclick="do_on_click('b7')"></button>
+        <button id="c7"class="black_pawn"onclick="do_on_click('c7')"></button>
+        <button id="d7"class="black_pawn"onclick="do_on_click('d7')"></button>
+        <button id="e7"class="black_pawn"onclick="do_on_click('e7')"></button>
+        <button id="f7"class="black_pawn"onclick="do_on_click('f7')"></button>
+        <button id="g7"class="black_pawn"onclick="do_on_click('g7')"></button>
+        <button id="h7"class="black_pawn"onclick="do_on_click('h7')"></button>
+      </div>
+      
+      <div class="horizontal-center">
+        <button id="a6"class="empty"onclick="do_on_click('a6')"></button>
+        <button id="b6"class="empty"onclick="do_on_click('b6')"></button>
+        <button id="c6"class="empty"onclick="do_on_click('c6')"></button>
+        <button id="d6"class="empty"onclick="do_on_click('d6')"></button>
+        <button id="e6"class="empty"onclick="do_on_click('e6')"></button>
+        <button id="f6"class="empty"onclick="do_on_click('f6')"></button>
+        <button id="g6"class="empty"onclick="do_on_click('g6')"></button>
+        <button id="h6"class="empty"onclick="do_on_click('h6')"></button>
+      </div>
+
+      <div class="horizontal-center">
+        <button id="a5"class="empty"onclick="do_on_click('a5')"></button>
+        <button id="b5"class="empty"onclick="do_on_click('b5')"></button>
+        <button id="c5"class="empty"onclick="do_on_click('c5')"></button>
+        <button id="d5"class="empty"onclick="do_on_click('d5')"></button>
+        <button id="e5"class="empty"onclick="do_on_click('e5')"></button>
+        <button id="f5"class="empty"onclick="do_on_click('f5')"></button>
+        <button id="g5"class="empty"onclick="do_on_click('g5')"></button>
+        <button id="h5"class="empty"onclick="do_on_click('h5')"></button>
+      </div>
+
+      <div class="horizontal-center">
+        <button id="a4"class="empty"onclick="do_on_click('a4')"></button>
+        <button id="b4"class="empty"onclick="do_on_click('b4')"></button>
+        <button id="c4"class="empty"onclick="do_on_click('c4')"></button>
+        <button id="d4"class="empty"onclick="do_on_click('d4')"></button>
+        <button id="e4"class="empty"onclick="do_on_click('e4')"></button>
+        <button id="f4"class="empty"onclick="do_on_click('f4')"></button>
+        <button id="g4"class="empty"onclick="do_on_click('g4')"></button>
+        <button id="h4"class="empty"onclick="do_on_click('h4')"></button>
+      </div>
+
+      <div class="horizontal-center">
+        <button id="a3"class="empty"onclick="do_on_click('a3')"></button>
+        <button id="b3"class="empty"onclick="do_on_click('b3')"></button>
+        <button id="c3"class="empty"onclick="do_on_click('c3')"></button>
+        <button id="d3"class="empty"onclick="do_on_click('d3')"></button>
+        <button id="e3"class="empty"onclick="do_on_click('e3')"></button>
+        <button id="f3"class="empty"onclick="do_on_click('f3')"></button>
+        <button id="g3"class="empty"onclick="do_on_click('g3')"></button>
+        <button id="h3"class="empty"onclick="do_on_click('h3')"></button>
+      </div>
+
+      <div class="horizontal-center">
+        <button id="a2"class="white_pawn"onclick="do_on_click('a2')"></button>
+        <button id="b2"class="white_pawn"onclick="do_on_click('b2')"></button>
+        <button id="c2"class="white_pawn"onclick="do_on_click('c2')"></button>
+        <button id="d2"class="white_pawn"onclick="do_on_click('d2')"></button>
+        <button id="e2"class="white_pawn"onclick="do_on_click('e2')"></button>
+        <button id="f2"class="white_pawn"onclick="do_on_click('f2')"></button>
+        <button id="g2"class="white_pawn"onclick="do_on_click('g2')"></button>
+        <button id="h2"class="white_pawn"onclick="do_on_click('h2')"></button>
+      </div>
+
+      <div class="horizontal-center">
+        <button id="a1"class="white_rook"onclick="do_on_click('a1')"></button>
+        <button id="b1"class="white_knight"onclick="do_on_click('b1')"></button>
+        <button id="c1"class="white_bishop"onclick="do_on_click('c1')"></button>
+        <button id="d1"class="white_queen"onclick="do_on_click('d1')"></button>
+        <button id="e1"class="white_king"onclick="do_on_click('e1')"></button>
+        <button id="f1"class="white_bishop"onclick="do_on_click('f1')"></button>
+        <button id="g1"class="white_knight"onclick="do_on_click('g1')"></button>
+        <button id="h1"class="white_rook"onclick="do_on_click('h1')"></button>
+      </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
